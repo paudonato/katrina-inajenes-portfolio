@@ -24,8 +24,8 @@ export default function ResumeDownload() {
             See the full picture, in one document.
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-sm leading-relaxed text-white/60 md:text-base">
-            A complete record of six-plus years in accounts receivable, collections, and
-            reconciliation — ready for your next hiring decision.
+            A complete record of six-plus years in accounts receivable, sales ledger management,
+            billing, collections, and reconciliation — ready for your next hiring decision.
           </p>
           <a
             href="/resume.pdf"

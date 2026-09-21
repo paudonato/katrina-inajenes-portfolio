@@ -4,10 +4,11 @@ import { motion } from "framer-motion";
 import { CheckCircle2 } from "lucide-react";
 
 const highlights = [
-  "6+ years in Accounts Receivable, Collections & Reconciliation",
+  "Accounts Receivable Specialist at HGV Training Services Limited",
+  "Sales ledger, billing, collections, and credit control experience",
   "Enterprise-scale experience via Accenture's Microsoft account",
-  "Fluent across Oracle, SAP, Dynamics 365 & Opera Cloud",
-  "Advanced Excel — PivotTables, XLOOKUP, formula-driven analysis",
+  "Oracle, SAP, Dynamics 365, QuickBooks & Salesforce",
+  "Advanced Excel, IFRS 15, and revenue recognition knowledge",
 ];
 
 export default function About() {
@@ -27,22 +28,22 @@ export default function About() {
 
           <div className="mt-6 space-y-4 text-base leading-relaxed text-navy-900/70 dark:text-white/65">
             <p>
-              Katrina Paula Inajenes is a detail-driven Accounts Receivable and Reconciliation
-              professional with six-plus years managing high-volume financial operations for
-              global enterprise clients. She has processed thousands of invoices and payments,
-              resolved complex billing disputes, and maintained accurate records across ERP
-              systems including Oracle, SAP, and Microsoft Dynamics 365.
+              Katrina Paula Inajenes is an Accounts Receivable Specialist with six-plus years of
+              experience across sales ledger management, billing, collections, credit control,
+              payment application, and account reconciliation. In her current role with HGV
+              Training Services Limited, she supports accurate invoicing, client receipts,
+              month-end reporting, aged debt analysis, and billing query resolution.
             </p>
             <p>
-              Her time managing collections for Microsoft&apos;s account at Accenture reflects an
-              ability to operate with precision at the highest levels of enterprise finance —
-              equally comfortable investigating a payment discrepancy or walking a client through
-              an invoice dispute with clarity and calm.
+              Her experience supporting Microsoft&apos;s account at Accenture, alongside roles at
+              MicroSourcing, reflects an ability to operate with precision across enterprise
+              finance environments. She is comfortable investigating payment discrepancies,
+              reconciling bank and customer accounts, and resolving invoice queries with clarity.
             </p>
             <p>
-              She is driven by continuous improvement: always looking for ways to tighten
-              processes, resolve accounts faster, and strengthen the accuracy of every financial
-              record she touches.
+              She brings working knowledge of IFRS 15 and revenue recognition, including
+              performance obligations, milestone billing, and deferred revenue, supported by
+              advanced Microsoft Excel skills for analysis and reconciliations.
             </p>
           </div>
         </motion.div>

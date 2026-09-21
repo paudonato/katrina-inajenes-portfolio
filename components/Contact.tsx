@@ -34,8 +34,8 @@ export default function Contact() {
         <span className="section-eyebrow">Contact</span>
         <h2 className="section-heading mt-4">Let&apos;s talk about your open role.</h2>
         <p className="mx-auto mt-4 max-w-xl text-sm leading-relaxed text-navy-900/60 dark:text-white/60 md:text-base">
-          Open to Accounts Receivable, Billing, Collections, and Financial Operations
-          opportunities. Reach out directly or send a message below.
+          Open to Accounts Receivable, Sales Ledger, Billing, Collections, and Financial
+          Operations opportunities. Reach out directly or send a message below.
         </p>
       </motion.div>
 

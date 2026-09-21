@@ -22,7 +22,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, ease: "easeOut" }}
         >
-          <span className="section-eyebrow">Accounts Receivable &amp; Financial Operations</span>
+          <span className="section-eyebrow">Accounts Receivable &amp; Sales Ledger Specialist</span>
 
           <h1 className="mt-5 text-4xl font-semibold leading-[1.1] tracking-tight text-navy-950 dark:text-white md:text-6xl">
             Katrina Paula
@@ -31,13 +31,13 @@ export default function Hero() {
           </h1>
 
           <p className="mt-6 max-w-xl text-lg font-medium text-navy-900/70 dark:text-white/70">
-            Accounts Receivable &amp; Reconciliation Specialist
+            Accounts Receivable Specialist
           </p>
 
           <p className="mt-4 max-w-xl text-base leading-relaxed text-navy-900/60 dark:text-white/60">
-            6+ years turning high-volume billing, collections, and reconciliation work into
-            accurate, audit-ready financial records — including enterprise-scale support for
-            Microsoft&apos;s account at Accenture.
+            6+ years across sales ledger management, billing, collections, payment application,
+            and account reconciliation — including enterprise-scale support for Microsoft&apos;s
+            account at Accenture.
           </p>
 
           <div className="mt-9 flex flex-wrap items-center gap-4">

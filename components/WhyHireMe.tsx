@@ -22,10 +22,10 @@ export default function WhyHireMe() {
             A finance professional recruiters can build a team around.
           </h2>
           <p className="mt-5 text-base leading-relaxed text-navy-900/65 dark:text-white/60">
-            Six-plus years of accounts receivable and reconciliation work has sharpened a
-            specific combination of traits: the discipline to catch what others miss, the
-            communication skill to resolve disputes without damaging relationships, and the
-            drive to keep improving how the work gets done.
+            Six-plus years across accounts receivable, sales ledger management, billing, and
+            reconciliation has sharpened a specific combination of traits: the discipline to
+            catch what others miss, the communication skill to resolve billing queries and
+            collections issues, and the drive to improve how the work gets done.
           </p>
         </motion.div>
 
