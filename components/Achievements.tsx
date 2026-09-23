@@ -53,9 +53,9 @@ export default function Achievements() {
                   ))}
                 </div>
               )}
-              {item.icon === "Award" && (
+              {item.certificateHref && (
                 <a
-                  href="/quickbooks-proadvisor-certification.pdf"
+                  href={item.certificateHref}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-secondary mt-6 !px-4 !py-2 text-xs"

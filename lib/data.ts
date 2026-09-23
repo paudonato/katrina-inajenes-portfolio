@@ -160,6 +160,7 @@ export interface Achievement {
   display?: string;
   label: string;
   details?: string[];
+  certificateHref?: string;
 }
 
 export const achievements: Achievement[] = [
@@ -174,6 +175,16 @@ export const achievements: Achievement[] = [
     display: "Certified",
     label: "QuickBooks Online ProAdvisor Certification",
     details: ["Intuit QuickBooks", "Certified September 22, 2026", "Valid through October 1, 2027"],
+    certificateHref: "/quickbooks-proadvisor-certification.pdf",
+  },
+  {
+    icon: "Award",
+    value: null,
+    suffix: "",
+    display: "Certified",
+    label: "QuickBooks Online ProAdvisor Advanced Certification",
+    details: ["Intuit QuickBooks", "Certified September 23, 2026", "Valid through October 1, 2027"],
+    certificateHref: "/quickbooks-proadvisor-advanced-certification.pdf",
   },
 ];
 
