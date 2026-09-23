@@ -1,11 +1,11 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Clock, Receipt, Building2, Layers, type LucideIcon } from "lucide-react";
+import { Award, Clock, Receipt, Building2, Layers, type LucideIcon } from "lucide-react";
 import AnimatedCounter from "@/components/AnimatedCounter";
 import { achievements } from "@/lib/data";
 
-const icons: Record<string, LucideIcon> = { Clock, Receipt, Building2, Layers };
+const icons: Record<string, LucideIcon> = { Award, Clock, Receipt, Building2, Layers };
 
 export default function Achievements() {
   return (
@@ -46,6 +46,23 @@ export default function Achievements() {
               <p className="mt-2 text-sm leading-relaxed text-navy-900/60 dark:text-white/60">
                 {item.label}
               </p>
+              {item.details && (
+                <div className="mt-4 space-y-1 text-xs leading-relaxed text-navy-900/50 dark:text-white/50">
+                  {item.details.map((detail) => (
+                    <p key={detail}>{detail}</p>
+                  ))}
+                </div>
+              )}
+              {item.icon === "Award" && (
+                <a
+                  href="/quickbooks-proadvisor-certification.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-secondary mt-6 !px-4 !py-2 text-xs"
+                >
+                  View Certificate →
+                </a>
+              )}
             </motion.div>
           );
         })}

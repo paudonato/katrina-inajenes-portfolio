@@ -159,6 +159,7 @@ export interface Achievement {
   suffix: string;
   display?: string;
   label: string;
+  details?: string[];
 }
 
 export const achievements: Achievement[] = [
@@ -166,6 +167,14 @@ export const achievements: Achievement[] = [
   { icon: "Receipt", value: 1000, suffix: "+", label: "Invoices & Payments Processed with Accuracy" },
   { icon: "Building2", value: null, suffix: "", display: "Enterprise-Scale", label: "Supported Microsoft's Global Account via Accenture" },
   { icon: "Layers", value: 4, suffix: "+", label: "ERP & Payment Systems Fluently Operated" },
+  {
+    icon: "Award",
+    value: null,
+    suffix: "",
+    display: "Certified",
+    label: "QuickBooks Online ProAdvisor Certification",
+    details: ["Intuit QuickBooks", "Certified September 22, 2026", "Valid through October 1, 2027"],
+  },
 ];
 
 export interface Strength {
